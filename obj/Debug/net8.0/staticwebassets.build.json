@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "TAT6p6tWXRls7I+mbzVrQDxgNeWG7PBGVICNdyf4sDw=",
+  "Source": "ContasApp.Presentation",
+  "BasePath": "_content/ContasApp.Presentation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ContasApp.Presentation\\wwwroot",
+      "Source": "ContasApp.Presentation",
+      "ContentRoot": "C:\\Users\\ander\\Desktop\\Estudos .Net\\ContasApp\\ContasApp.Presentation\\wwwroot\\",
+      "BasePath": "_content/ContasApp.Presentation",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

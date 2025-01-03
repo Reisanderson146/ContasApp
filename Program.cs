@@ -15,9 +15,10 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
+//Configurando o padrão de navegação do projeto /Controllers/Views
+//e definindo a página inicial do projeto
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Account}/{action=Login}/{id?}");
 
 app.Run();
