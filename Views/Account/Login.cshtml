@@ -1,1 +1,40 @@
-﻿<h1>Página de Login!</h1>
+﻿@{
+    // Definindo o layout da página
+    Layout = "~/Views/Shared/_AccountLayout.cshtml";
+}
+
+<div class="text-center">
+    <h4>Acessar Conta</h4>
+    <p>Insira suas credenciais para entrar no sistema.</p>
+    <hr />
+</div>
+
+<form>
+    <div class="mb-2">
+        <label>Email de acesso:</label>
+        <input type="text" class="form-control" placeholder="Ex: joao@gmail.com" />
+    </div>
+
+    <div class="mb-2">
+        <label>Senha de acesso:</label>
+        <input type="password" class="form-control" />
+    </div>
+
+    <div class="mb-2 d-grid">
+        <input type="submit" value="Entrar" class="btn btn-primary" />
+    </div>
+
+    <div class="mb-2 text-center">
+        <a href="/Account/ForgotPassword">Esqueceu a senha?</a>
+    </div>
+    <hr />
+
+    <div class="mb-2 text-center">
+        <button type="button" class="btn btn-success" onclick="window.location.href='/Account/Register'">
+            Criar nova conta
+        </button>
+    </div>
+</form>
+<form>
+
+</form>
