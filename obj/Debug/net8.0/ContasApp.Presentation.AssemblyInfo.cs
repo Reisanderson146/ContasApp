@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ContasApp.Presentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+274d66157e6c29ff6d84b1a5132351d7d00ec190")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27a9d5625351bc16b74521642169743896e42616")]
 [assembly: System.Reflection.AssemblyProductAttribute("ContasApp.Presentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContasApp.Presentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
